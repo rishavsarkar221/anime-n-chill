@@ -1,0 +1,59 @@
+.musicSelect {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    line-height: 3;
+    font-family: Source Sans Pro;
+    text-align: center;
+    width: 15%;
+    cursor: pointer;
+    margin-left: 84.5%;
+    position: absolute;
+    bottom: 50%;
+}
+
+.musicOptions:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+audio {
+    outline: none;
+    position: absolute;
+    top: 80%;
+    margin-left: 79.5%;
+}
+
+#nowPlayingTitle, #nowMusic {
+    text-align: center;
+}
+
+.nowPlayingMusic {
+    font-family: Source Sans Pro;
+    color: white;
+}
+
+.kira-theme {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('kira-theme.gif');
+    background-size: cover;
+}
+
+.l-death-note {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('l-death-note.gif');
+    background-size: cover;
+}
+
+.tournament-of-power {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('tournament-of-power.gif');
+    background-size: cover;
+}
+
+.naruto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('naruto.gif');
+    background-size: cover; 
+}
+
+.guren-no-yumiya {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('guren-no-yumiya.gif');
+    background-size: cover;
+}
